@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;1,9..40,400&display=swap');
+
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --bg-base: #0d1117;
+  --bg-sidebar: #111827;
+  --bg-surface: #1a2235;
+  --bg-input: #1e2d42;
+  --accent: #1e5fa8;
+  --accent-light: #3b82c4;
+  --accent-glow: #7ec8f0;
+  --user-bubble: #1e4a7a;
+  --bot-bubble: #1a2a3f;
+  --text-primary: #e8edf5;
+  --text-secondary: #8ba3c0;
+  --text-muted: #4d6680;
+  --border: rgba(255, 255, 255, 0.07);
+  --border-hover: rgba(255, 255, 255, 0.12);
+  --success: #22c55e;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: var(--bg-base);
+  color: var(--text-primary);
+  font-family: 'DM Sans', sans-serif;
+}
+
+.app {
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+}

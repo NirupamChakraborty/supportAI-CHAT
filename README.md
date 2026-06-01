@@ -2,7 +2,7 @@
 
 A full-stack AI-powered customer support chat application. Built with React 19 on the frontend and Node.js/Express on the backend, with MongoDB for conversation persistence and OpenRouter (GPT-4o-mini) as the AI layer.
 
-**Live Demo → [support-ai-chat-tins.vercel.app/chat](https://support-ai-chat-tins.vercel.app)**
+**Live Demo → [support-ai-chat-tins.vercel.app](https://support-ai-chat-tins.vercel.app)**
 
 ---
 
